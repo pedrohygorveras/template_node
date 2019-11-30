@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <!-- Meta -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <meta name="theme-color" content="#726fd3">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#726fd3">
+  <meta name="msapplication-navbutton-color" content="#726fd3">
+
+  <!-- Title -->
+  <title> - {{title}} </title>
+
+  <!-- Favicon -->
+  <link rel="icon" href="src/img/favicon.png">
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="src/bootstrap/css/bootstrap.min.css">
+
+  <!-- Css -->
+  <link rel="stylesheet" href="src/css/main.css">
+
+  <!-- Font-Awesome -->
+  <link rel="stylesheet" href="src/font-awesome/css/font-awesome.css">
+
+  <!-- Linearicons -->
+  <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+
+  <!-- Mask -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.min.js"></script>
+
+</head>
+
+<body id="body" class="color-body">
+
+  <script>
+    window.onscroll = function () { scrollFunction() };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+        document.getElementById("navbar").style.boxShadow = "0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12)";
+        // document.getElementById("navbar").style.backgroundColor = "#270556";
+        document.getElementById("logo").style.fontWeight = "normal";
+        
+      } else {
+        document.getElementById("navbar").style.boxShadow = "0 0 5px 0 rgba(0,0,0,.2)";
+        // document.getElementById("navbar").style.backgroundColor = "transparent";
+      }
+    }
+  </script>
+
+  {{{body}}}
+
+  <!-- Mask -->
+  <script type="text/javascript">
+    $("#telefone, #telefone2, #numero_whatsapp").mask("(00) 00000-0000");
+  </script>
+
+  <!-- Scripts -->
+  <script src="src/js/jquery/jquery.js"></script>
+  <script src="src/js/popper/popper.js"></script>
+  <script src="src/js/dist/bootstrap.js"></script>
+
+  <!-- Js-Animations -->
+  <script src="src/js/write.js"></script>
+  <script src="src/js/animation.js"></script>
+
+</body>
+
+</html>

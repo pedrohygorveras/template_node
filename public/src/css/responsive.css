@@ -1,0 +1,72 @@
+
+
+/* SMALL */
+@media (max-width: 767px) {
+
+  /* ALIGN ----------------------------- */
+  .textAlign-sm-center { text-align: center; }
+  .textAlign-sm-left { text-align: left; }
+  .textAlign-sm-right { text-align: right; }
+  
+  /* PADDING ----------------------------- */
+  .pt-sm-1 { padding-top: 10px; }
+  .pt-sm-2 { padding-top: 20px; }
+  .pt-sm-3 { padding-top: 30px; }
+  .pt-sm-4 { padding-top: 40px; }
+  .pt-sm-5 { padding-top: 50px; }
+
+  /* MARGIN ----------------------------- */
+  .mt-sm-1 { margin-top: 10px; }
+  .mt-sm-2 { margin-top: 20px; }
+  .mt-sm-3 { margin-top: 30px; }
+  .mt-sm-4 { margin-top: 40px; }
+  .mt-sm-5 { margin-top: 50px; }
+}
+
+
+/* MEDIUM */
+@media (max-width: 959px) {
+
+  /* ALIGN ----------------------------- */
+  .textAlign-md-center { text-align: center !important; }
+  .textAlign-md-left { text-align: left !important; }
+  .textAlign-md-right { text-align: right !important; }
+
+  /* PADDING ----------------------------- */
+  .pt-md-1 { padding-top: 10px; }
+  .pt-md-2 { padding-top: 20px; }
+  .pt-md-3 { padding-top: 30px; }
+  .pt-md-4 { padding-top: 40px; }
+  .pt-md-5 { padding-top: 50px; }
+
+  /* MARGIN ----------------------------- */
+  .mt-md-1 { margin-top: 10px; }
+  .mt-md-2 { margin-top: 20px; }
+  .mt-md-3 { margin-top: 30px; }
+  .mt-md-4 { margin-top: 40px; }
+  .mt-md-5 { margin-top: 50px; }
+}
+
+
+/* LARGE */
+@media (min-width: 959px) {
+
+  /* ALIGN ----------------------------- */
+  .textAlign-lg-center { text-align: center; }
+  .textAlign-lg-left { text-align: left; }
+  .textAlign-lg-right { text-align: right; }
+
+  /* PADDING ----------------------------- */
+  .pt-lg-1 { padding-top: 10px; }
+  .pt-lg-2 { padding-top: 20px; }
+  .pt-lg-3 { padding-top: 30px; }
+  .pt-lg-4 { padding-top: 40px; }
+  .pt-lg-5 { padding-top: 50px; }
+
+  /* MARGIN ----------------------------- */
+  .mt-lg-1 { margin-top: 10px; }
+  .mt-lg-2 { margin-top: 20px; }
+  .mt-lg-3 { margin-top: 30px; }
+  .mt-lg-4 { margin-top: 40px; }
+  .mt-lg-5 { margin-top: 50px; }
+}
