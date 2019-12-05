@@ -26,6 +26,9 @@
   <!-- Font-Awesome -->
   <link rel="stylesheet" href="src/font-awesome/css/font-awesome.css">
 
+  <!-- Recaptcha -->
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
   <!-- Linearicons -->
   <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
 
@@ -45,13 +48,17 @@
         document.getElementById("navbar").style.boxShadow = "0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12)";
         // document.getElementById("navbar").style.backgroundColor = "#270556";
         document.getElementById("logo").style.fontWeight = "normal";
-        
+
       } else {
         document.getElementById("navbar").style.boxShadow = "0 0 5px 0 rgba(0,0,0,.2)";
         // document.getElementById("navbar").style.backgroundColor = "transparent";
       }
     }
   </script>
+
+  {{#if captchFailed}}
+  <script> window.location.href = "#fc"; </script>
+  {{/if}}
 
   {{{body}}}
 
